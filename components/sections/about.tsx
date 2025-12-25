@@ -1,0 +1,48 @@
+import React from 'react';
+import { User, BookOpen, Terminal, Sparkles } from 'lucide-react';
+import { profileInfo } from "@/lib/data";
+
+export function About() {
+    return (
+        <section id="about" className="py-24 bg-background">
+            <div className="max-w-4xl mx-auto px-6">
+                <div className="text-center space-y-10">
+                    <div className="inline-flex p-4 rounded-3xl bg-blue-50 text-blue-600 dark:bg-blue-900/20 dark:text-blue-400">
+                        <User className="w-8 h-8" />
+                    </div>
+                    <div className="space-y-4">
+                        <h2 className="text-4xl font-bold text-foreground">Get to know me</h2>
+                        <div className="w-20 h-1.5 bg-primary mx-auto rounded-full"></div>
+                    </div>
+                    <p className="text-xl text-muted-foreground leading-relaxed italic max-w-3xl mx-auto">
+                        "{profileInfo.about}"
+                    </p>
+
+                    <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 pt-6">
+                        <div className="group p-8 rounded-[2rem] bg-secondary/50 border border-border transition-all hover:bg-background hover:shadow-xl hover:border-primary/20">
+                            <div className="w-12 h-12 bg-blue-100 dark:bg-blue-900/40 rounded-2xl flex items-center justify-center text-blue-600 dark:text-blue-400 mx-auto mb-4 group-hover:scale-110 transition-transform">
+                                <BookOpen className="w-6 h-6" />
+                            </div>
+                            <h3 className="font-bold text-2xl text-foreground">{profileInfo.cgpa}</h3>
+                            <p className="text-xs text-muted-foreground uppercase tracking-widest font-bold mt-2">CGPA</p>
+                        </div>
+                        <div className="group p-8 rounded-[2rem] bg-secondary/50 border border-border transition-all hover:bg-background hover:shadow-xl hover:border-primary/20">
+                            <div className="w-12 h-12 bg-indigo-100 dark:bg-indigo-900/40 rounded-2xl flex items-center justify-center text-indigo-600 dark:text-indigo-400 mx-auto mb-4 group-hover:scale-110 transition-transform">
+                                <Terminal className="w-6 h-6" />
+                            </div>
+                            <h3 className="font-bold text-2xl text-foreground">5+</h3>
+                            <p className="text-xs text-muted-foreground uppercase tracking-widest font-bold mt-2">Projects</p>
+                        </div>
+                        <div className="group p-8 rounded-[2rem] bg-secondary/50 border border-border transition-all hover:bg-background hover:shadow-xl hover:border-primary/20">
+                            <div className="w-12 h-12 bg-purple-100 dark:bg-purple-900/40 rounded-2xl flex items-center justify-center text-purple-600 dark:text-purple-400 mx-auto mb-4 group-hover:scale-110 transition-transform">
+                                <Sparkles className="w-6 h-6" />
+                            </div>
+                            <h3 className="font-bold text-2xl text-foreground">2</h3>
+                            <p className="text-xs text-muted-foreground uppercase tracking-widest font-bold mt-2">Specialized</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
+}
