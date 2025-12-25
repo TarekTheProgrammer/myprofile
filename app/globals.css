@@ -2,7 +2,8 @@
 
 :root {
   /* Slate-50 as background base, but keeping it white for cleanliness, using Slate-50 for secondary */
-  --background: 0 0% 100%;
+  /* Slate-50 as background base */
+  --background: 210 40% 98%;
   /* White */
   --foreground: 222.2 84% 4.9%;
   /* Slate-900 */

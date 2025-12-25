@@ -4,7 +4,7 @@ import { profileInfo } from "@/lib/data";
 
 export function Skills() {
     return (
-        <section id="skills" className="py-24 bg-slate-950 text-white overflow-hidden">
+        <section id="skills" className="py-24 bg-slate-900 text-white overflow-hidden">
             <div className="max-w-6xl mx-auto px-6">
                 <h2 className="text-3xl font-bold mb-12 flex items-center gap-4">
                     <div className="p-2 rounded-lg bg-blue-500"><Code className="w-5 h-5" /></div>

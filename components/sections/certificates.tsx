@@ -4,7 +4,7 @@ import { profileInfo } from "@/lib/data";
 
 export function Certificates() {
     return (
-        <section id="certificates" className="py-24 px-6 bg-white dark:bg-slate-900/50">
+        <section id="certificates" className="py-24 px-6 bg-slate-50 dark:bg-slate-900/50">
             <div className="max-w-6xl mx-auto">
                 <h2 className="text-3xl font-bold mb-12 text-slate-900 dark:text-white">Certificates & Achievements</h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 
 export function Hero() {
     return (
-        <section id="home" className="pt-32 pb-20 px-6 bg-white dark:bg-slate-950">
+        <section id="home" className="pt-32 pb-20 px-6 bg-slate-50 dark:bg-slate-950">
             <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
                 <div className="flex-1 space-y-6">
                     <div className="inline-flex items-center px-3 py-1 rounded-full bg-blue-50 text-blue-600 text-xs font-bold uppercase tracking-wider dark:bg-blue-900/30 dark:text-blue-400">

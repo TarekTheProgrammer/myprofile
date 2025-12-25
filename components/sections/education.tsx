@@ -4,7 +4,7 @@ import { profileInfo } from "@/lib/data";
 
 export function Education() {
     return (
-        <section id="education" className="py-24 px-6 bg-white dark:bg-slate-900/50">
+        <section id="education" className="py-24 px-6 bg-slate-50 dark:bg-slate-900/50">
             <div className="max-w-6xl mx-auto">
                 <div className="flex items-center gap-4 mb-12">
                     <div className="p-2 rounded-lg bg-blue-600 text-white"><BookOpen className="w-5 h-5" /></div>
